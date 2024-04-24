@@ -1,0 +1,67 @@
+{
+  "name": "MyDriver",
+  "short_name": "MyDriver",
+  "description": "Try Systems - MyDriver",
+  "start_url": "/index.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait",
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "type": "image/png",
+      "sizes": "480x800",
+      "label": "Screenshot 1"
+    },
+    {
+      "src": "/screenshot2.png",
+      "type": "image/png",
+      "sizes": "800x480",
+      "label": "Screenshot 2"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Shortcut 1",
+      "description": "Description for Shortcut 1",
+      "url": "/path/to/shortcut1",
+      "icons": [
+        {
+          "src": "/shortcut1.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Shortcut 2",
+      "description": "Description for Shortcut 2",
+      "url": "/path/to/shortcut2",
+      "icons": [
+        {
+          "src": "/shortcut2.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "protocol_handlers": [ 
+    {
+      "protocol": "mailto",
+      "url": "/path/to/handle-mail"
+    }
+  ],
+  "display_override": {
+    "display_mode": "fullscreen",
+    "orientation": "landscape"
+  },
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
